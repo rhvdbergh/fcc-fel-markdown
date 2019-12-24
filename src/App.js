@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import Editor from './components/Editor';
 import Preview from './components/Preview';
-
-const markupOnStartup = '# Heading 1';
+import markupOnStartup from './markupOnStartup';
 
 const App = () => {
   const [currentPreview, updatePreview] = useState(markupOnStartup);
