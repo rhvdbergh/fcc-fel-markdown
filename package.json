@@ -1,0 +1,11 @@
+{
+  "name": "fcc-fel-markdown",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Front End Libraries Project 2 - Markdown Previewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronald van der Bergh",
+  "license": "MIT"
+}
