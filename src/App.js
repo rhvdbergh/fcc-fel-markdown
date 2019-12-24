@@ -1,8 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+import Editor from './components/Editor';
+import Preview from './components/Preview';
+
+const markupOnStartup = '# Heading 1';
 
 const App = () => {
-  return <div>Welcome to React</div>;
+  const [currentPreview, updatePreview] = useState(markupOnStartup);
+
+  return (
+    <div>
+      <Editor markupOnStartup={markupOnStartup} updatePreview={updatePreview} />
+      <Preview currentPreview={currentPreview} />
+    </div>
+  );
 };
 
-ReactDOM.render(App, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
