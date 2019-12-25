@@ -28,7 +28,7 @@ img {
   border: rgb(157, 220, 231) solid 3px;
   border-radius: 15px;
   background: whitesmoke;
-  font-size: 1em;
+  font-size: 1.3em;
   resize: none;
 }
 
@@ -46,6 +46,7 @@ img {
 @media only screen and (max-width: 1025px) {
   #editor {
     width: 1000px;
+    font-size: 1.1em;
   }
 
   #preview {
