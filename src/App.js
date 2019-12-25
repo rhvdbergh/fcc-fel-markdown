@@ -8,7 +8,7 @@ const App = () => {
   const [currentPreview, updatePreview] = useState(markupOnStartup);
 
   return (
-    <div>
+    <div id="container">
       <Editor markupOnStartup={markupOnStartup} updatePreview={updatePreview} />
       <Preview currentPreview={currentPreview} />
     </div>
