@@ -13,6 +13,21 @@ img {
   object-fit: contain;
 }
 
+blockquote {
+  color: rgb(78, 107, 112);
+}
+
+pre {
+  display: block;
+  clear: both;
+  width: 100%;
+  background-color: rgb(157, 220, 231);
+}
+
+code {
+  background-color: rgb(157, 220, 231);
+}
+
 #container {
   display: flex;
   justify-content: center;
@@ -28,11 +43,12 @@ img {
   border: rgb(157, 220, 231) solid 3px;
   border-radius: 15px;
   background: whitesmoke;
-  font-size: 1.3em;
+  font-size: 1.2em;
   resize: none;
 }
 
 #preview {
+  /* font-family: sans-serif; */
   margin: 40px 10px 0 10px;
   padding: 10px;
   width: 45%;
