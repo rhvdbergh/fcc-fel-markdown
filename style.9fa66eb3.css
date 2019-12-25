@@ -1,2 +1,0 @@
-body,html{height:100%;font-family:Open Sans,sans-serif}body{background-color:#39868b}img{width:100%;object-fit:contain}#container{display:flex;justify-content:center}#editor{background:#f5f5f5;font-size:1em;resize:none}#editor,#preview{padding:10px;margin:40px 10px 0;width:45%;height:80vh;border:3px solid #9ddce7;border-radius:15px}#preview{background-color:#f5f5f5;overflow:scroll}@media only screen and (max-width:1025px){#editor,#preview{width:1000px}#container{flex-wrap:wrap}}
-/*# sourceMappingURL=/fcc-fel-markdown/style.9fa66eb3.css.map */
